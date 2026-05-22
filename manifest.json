@@ -1,6 +1,6 @@
 {
-    "name": "data_harvester",
-    "short_name": "data_harvester",
+    "name": "pokisudoki",
+    "short_name": "pokisudoki",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
