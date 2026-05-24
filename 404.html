@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      // GitHub Pages SPA routing: save the full URL and redirect to the root
+      // so index.html (the Flutter app) can restore it via history.replaceState.
+      sessionStorage.setItem(
+        "spa_redirect",
+        window.location.pathname +
+          window.location.search +
+          window.location.hash,
+      );
+      window.location.replace("/");
+    </script>
+  </head>
+  <body></body>
+</html>
