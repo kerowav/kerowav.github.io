@@ -1,6 +1,6 @@
 {
-    "name": "pokisudoki",
-    "short_name": "pokisudoki",
+    "name": "Seedoku",
+    "short_name": "Seedoku",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
