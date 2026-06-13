@@ -10680,7 +10680,7 @@ case 4:s=l.a
 s===$&&A.a()
 s=A.bo(s,200)
 r=A.bo(A.a0r(l,B.pW,B.KM),24)
-q=A.bo(A.a0r(l,B.pW,B.LD),32)
+q=A.bo(A.a0r(l,B.pW,B.LE),32)
 p=A.bo(l.a,10)
 o=A.bo(l.a,12)
 l.d===$&&A.a()
@@ -10690,8 +10690,8 @@ break
 case 5:s=l.a
 s===$&&A.a()
 s=A.bo(A.zy(s+240),40)
-r=A.bo(A.a0r(l,B.pZ,B.Mk),24)
-q=A.bo(A.a0r(l,B.pZ,B.Ml),32)
+r=A.bo(A.a0r(l,B.pZ,B.Ml),24)
+q=A.bo(A.a0r(l,B.pZ,B.Mm),32)
 p=A.bo(l.a+15,8)
 o=A.bo(l.a+15,12)
 l.d===$&&A.a()
@@ -18560,7 +18560,7 @@ r.toString
 A.cs(r)
 q=a.h(0,"swipeEdge")
 q.toString
-return new A.mL(s,r,B.Lg[A.eW(q)])},
+return new A.mL(s,r,B.Li[A.eW(q)])},
 BQ:function BQ(a,b){this.a=a
 this.b=b},
 mL:function mL(a,b,c){this.a=a
@@ -20673,7 +20673,7 @@ if(a.as!==q)return q?-1:1
 return 0},
 aK2(a,b){var s=A.S(b).i("a6<1,dz>")
 s=A.W(new A.a6(b,new A.a1g(),s),s.i("aw.E"))
-return A.aJk(!0,s,a,B.LN,!0,B.H8,null)},
+return A.aJk(!0,s,a,B.LO,!0,B.H8,null)},
 avR(a){var s
 try{a.dM()}catch(s){a.NL()}a.w=B.a2G
 try{a.bi(A.aSf())}catch(s){}},
@@ -21243,7 +21243,7 @@ _.as=!0
 _.at=!1
 _.$ti=d},
 a5_(a,b){var s
-if(a.j(0,b))return new A.In(B.LM)
+if(a.j(0,b))return new A.In(B.LN)
 s=A.b([],t.fJ)
 A.c5()
 a.oG(new A.a50(b,A.aD(t.u),s))
@@ -25239,7 +25239,7 @@ b=t.co
 a=t.t
 while(i.p()){a0=i.gH()
 l=o.a(a0.b)
-a1=new A.aV(B.Ly,f)
+a1=new A.aV(B.Lz,f)
 n=a1.bZ(a1,new A.acN(l),new A.acn())
 if(n!=null){a2=new A.kn(n,B.c8,B.eW,A.b([],a))
 a1=A.ee(l.h(0,"houseLevel"))
@@ -25256,7 +25256,7 @@ a2.e=a1==null?1:a1
 a1=new A.aV(B.lI,m)
 a1=a1.bZ(a1,new A.aco(l),new A.acp())
 a2.f=a1==null?B.c8:a1
-a1=new A.aV(B.Lx,b)
+a1=new A.aV(B.Ly,b)
 a1=a1.bZ(a1,new A.acq(l),new A.acr())
 a2.w=a1==null?B.eW:a1
 a1=A.ee(l.h(0,"smithCraftLimit"))
@@ -26558,7 +26558,7 @@ a4B(a){var s=a/100
 return(s<=0.0031308?s*12.92:1.055*Math.pow(s,0.4166666666666667)-0.055)*255},
 aw2(a){var s=Math.pow(Math.abs(a),0.42)
 return A.pl(a)*400*s/(s+27.13)},
-aw3(a){var s=A.mz(a,B.Mj),r=A.aw2(s[0]),q=A.aw2(s[1]),p=A.aw2(s[2])
+aw3(a){var s=A.mz(a,B.Mk),r=A.aw2(s[0]),q=A.aw2(s[1]),p=A.aw2(s[2])
 return Math.atan2((r+q-2*p)/9,(11*r+-12*q+p)/11)},
 aKE(a,b){var s,r,q,p,o,n=B.f.bv(b,4)<=1?0:100,m=(b&1)===0?0:100
 if(b<4){s=(a-n*0.7152-m*0.0722)/0.2126
@@ -27578,7 +27578,7 @@ vB(){var s=this.Q
 s===$&&A.a()
 return s},
 vC(a,b,c,d){var s,r,q,p
-if(a<0||b<0)return B.LW
+if(a<0||b<0)return B.LX
 s=this.a
 s===$&&A.a()
 s=s.a
@@ -27597,7 +27597,7 @@ l.push(new A.ec(n[0],n[1],n[2],n[3],B.lD[m]))}return l},
 cR(a){var s,r,q=this.a
 q===$&&A.a()
 s=q.a.getGlyphPositionAtCoordinate(a.a,a.b)
-r=B.Li[J.az(s.affinity.value)]
+r=B.Lk[J.az(s.affinity.value)]
 return new A.ad(J.az(s.pos),r)},
 JU(a){var s=this.a
 s===$&&A.a()
@@ -28084,7 +28084,7 @@ A.oa.prototype={
 J(){return"CanvasKitVariant."+this.b}}
 A.a23.prototype={
 gmf(){var s=this.b,r=s==null?null:s.canvasKitVariant
-return A.aKb(B.Lv,r==null?"auto":r)},
+return A.aKb(B.Lw,r==null?"auto":r)},
 gGk(){var s,r=this.b
 if(r==null)s=null
 else{r=r.canvasKitMaximumSurfaces
@@ -32456,7 +32456,7 @@ if(m.f!==B.pD){m.f=B.pD
 m.PI()}}return m.d.a.a_s(a)},
 PI(){var s,r
 for(s=this.w,r=0;r<s.length;++r)s[r].$1(this.f)},
-a_r(a){if(B.b.A(B.LG,a))return this.f===B.ir
+a_r(a){if(B.b.A(B.LH,a))return this.f===B.ir
 return!1}}
 A.a1N.prototype={
 $0(){return new A.bA(Date.now(),0,!1)},
@@ -43569,7 +43569,7 @@ r=A.tJ(B.PT,B.i,r==null?1:r)
 r.toString
 q=p.aa(q.gq())
 if(q==null)q=1
-return A.aCx(A.aBB(null,B.p,new A.tw(q,B.L8,new A.cz(B.CO,this.e)),s,1,B.UT),r)}}
+return A.aCx(A.aBB(null,B.p,new A.tw(q,B.La,new A.cz(B.CO,this.e)),s,1,B.UT),r)}}
 A.GN.prototype={
 l(){var s=this,r=s.bx$
 if(r!=null)r.L(s.ghf())
@@ -46862,7 +46862,7 @@ n=o.e
 o=o.cx
 r=q.gad0()
 q.a.toString
-return new A.CU(p,p,p,new A.aoB(),p,p,p,p,p,n,B.OR,p,p,p,B.LS,q.gad8(),o,p,B.YH,s,p,r,p,p,B.pV,!1,!1,p,p,p,new A.oW(q,t.bT))},
+return new A.CU(p,p,p,new A.aoB(),p,p,p,p,p,n,B.OR,p,p,p,B.LT,q.gad8(),o,p,B.YH,s,p,r,p,p,B.pV,!1,!1,p,p,p,new A.oW(q,t.bT))},
 G(a){var s,r=this.a5L(a)
 this.a.toString
 s=this.d
@@ -46962,7 +46962,7 @@ A.vc.prototype={
 J(){return"_CornerId."+this.b}}
 A.lC.prototype={}
 A.ty.prototype={
-kJ(){var s,r,q,p=this,o=A.aQV(B.LB,new A.a8m(p,p.b.gaR().V(0,p.a.gaR()))),n=p.a
+kJ(){var s,r,q,p=this,o=A.aQV(B.LC,new A.a8m(p,p.b.gaR().V(0,p.a.gaR()))),n=p.a
 n.toString
 s=o.a
 r=p.pb(n,s)
@@ -50390,7 +50390,7 @@ r.f=s.d},
 $S:0}
 A.KX.prototype={
 G(a){var s=this.c.T(0,new A.h(0,40.95))
-return A.aBB(A.IJ(null,B.Gj,!0),B.a2,new A.tw(1,B.M4,new A.cz(B.CN,B.t)),s,1.25,B.UU)}}
+return A.aBB(A.IJ(null,B.Gj,!0),B.a2,new A.tw(1,B.M5,new A.cz(B.CN,B.t)),s,1.25,B.UU)}}
 A.pk.prototype={
 J(){return"MaterialType."+this.b}}
 A.zs.prototype={
@@ -50775,7 +50775,7 @@ giG(){return A.aSU()},
 Gh(a,b,c,d,e,f){return A.aJ0(a,b,c,d,e,f)}}
 A.Ly.prototype={
 a51(a){var s=t.Tr
-s=A.W(new A.a6(B.LA,new A.a9O(a),s),s.i("aw.E"))
+s=A.W(new A.a6(B.LB,new A.a9O(a),s),s.i("aw.E"))
 return s},
 j(a,b){if(b==null)return!1
 if(this===b)return!0
@@ -56279,7 +56279,7 @@ return new A.mh(r.a.da(s.gib()),r.b,r.c)},
 cR(a){var s=this.b
 return s.a.c.cR(a.V(0,s.gib()))},
 pU(){var s,r,q=this.b,p=q.gib()
-if(!isFinite(p.a)||!isFinite(p.b))return B.LL
+if(!isFinite(p.a)||!isFinite(p.b))return B.LM
 s=q.f
 if(s==null){s=q.a.c.pU()
 q.f=s}if(p.j(0,B.i))r=s
@@ -60584,7 +60584,7 @@ for(a0=a0.lC(k),m=a0.length,i=0;i<a0.length;a0.length===m||(0,A.y)(a0),++i){h=a0
 j.push(new A.o(h.a,h.b,h.c,h.d))}A:{if(p){a0=B.RH
 break A}a0=l
 g=a0
-if(a0){a0=B.Si
+if(a0){a0=B.Sh
 break A}a0=!1===g
 if(a0){a0=B.RW
 break A}a0=a}f=a0.a
@@ -65123,7 +65123,7 @@ break
 case 1:return A.M(q,r)}})
 return A.N($async$DY,r)},
 a8y(a,b){var s,r,q,p
-if(a===b)return B.LQ
+if(a===b)return B.LR
 s=A.b([],t.QP)
 if(a==null)s.push(b)
 else{r=B.b.fV(B.fH,a)
@@ -66989,7 +66989,7 @@ A.l9.prototype={}
 A.LS.prototype={
 li(a,b){var s,r,q,p,o,n=$.Y.a4$.d.c
 if(n==null||n.e==null)return!1
-for(s=t.E,r=0;r<2;++r){q=B.LH[r]
+for(s=t.E,r=0;r<2;++r){q=B.LI[r]
 p=n.e
 p.toString
 o=A.avf(p,q,s)
@@ -69451,7 +69451,7 @@ h.FN()
 r=h.ga9j()
 q=q.uu
 h.e!==$&&A.b6()
-h.e=new A.N4(s,new A.ce(B.O1,l),new A.pg(),p,B.cN,0,k,h.gabq(),h.gabs(),r,B.cN,0,j,h.gabk(),h.gabm(),r,i,B.LO,f,g.CW,g.cx,g.cy,o,g,n,m,g.x,q,new A.IS(),new A.IS())
+h.e=new A.N4(s,new A.ce(B.O1,l),new A.pg(),p,B.cN,0,k,h.gabq(),h.gabs(),r,B.cN,0,j,h.gabk(),h.gabm(),r,i,B.LP,f,g.CW,g.cx,g.cy,o,g,n,m,g.x,q,new A.IS(),new A.IS())
 return h},
 wG(a,b){var s,r,q,p=this,o=p.a.c,n=o.a.a.length
 if(n<a.b||n<a.a)return
@@ -71247,9 +71247,9 @@ A.vf.prototype={}
 A.Qt.prototype={}
 A.a_P.prototype={
 VK(a,b){var s,r,q={},p=a.ghu().goy().d7(0),o=q.a=q.b=null
-switch(b){case B.cP:o=B.Sg
+switch(b){case B.cP:o=B.Sf
 break
-case B.cR:o=B.Sh
+case B.cR:o=B.Sg
 break
 case B.cS:o=B.S_
 break
@@ -72859,7 +72859,7 @@ j(a,b){var s=this
 if(b==null)return!1
 if(J.Q(b)!==A.u(s))return!1
 return b instanceof A.c8&&b.a===s.a&&b.b==s.b&&b.d===s.d&&A.cC(null,null)},
-gB(a){return A.I(this.a,this.b,null,this.d,A.bq(B.LV),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gB(a){return A.I(this.a,this.b,null,this.d,A.bq(B.LW),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 k(a){return"IconData(U+"+B.d.Ax(B.f.ow(this.a,16).toUpperCase(),5,"0")+")"}}
 A.p1.prototype={
 cW(a){return!this.w.j(0,a.w)},
@@ -73799,7 +73799,7 @@ b=r?a1:a3.fr
 if(b==null)b=a2.b.c.z
 a3=r?a1:a3.fx
 a2=a3==null?a2.b.c.Q:a3
-a=new A.zA(a4,s,q,p,m,o,n,a5,g===!0,a6,a7,i,h,l,k,j,f,new A.rV(a1),B.LR,e===!0,d,c,b,a2)
+a=new A.zA(a4,s,q,p,m,o,n,a5,g===!0,a6,a7,i,h,l,k,j,f,new A.rV(a1),B.LS,e===!0,d,c,b,a2)
 if(!a.j(0,a0.e))a0.a8(new A.aoS(a0,a))},
 UW(){if(this.d==null)this.pB()},
 H_(){this.pB()},
@@ -74114,7 +74114,7 @@ r.M(0,s.Yv(null,l))
 l.a.toString
 q=r.a
 p=0
-for(;!1;++p){o=B.LT[p]
+for(;!1;++p){o=B.LU[p]
 n=l.c
 n.toString
 m=new A.hA(o.GK(n),null,!0,B.np,B.cx,new A.r5(new ($.XW())(B.cx)),B.cx)
@@ -74470,7 +74470,7 @@ G(a){var s,r,q=this,p=null,o=q.gaaZ(),n=A.me(a),m=q.bO$,l=q.d
 l===$&&A.a()
 s=q.a.ay
 if(l.gP()==null){r=q.gM_()
-r=J.mo(r.slice(0),A.S(r).c)}else r=B.LU
+r=J.mo(r.slice(0),A.S(r).c)}else r=B.LV
 return new A.oZ(p,new A.dS(new A.a9q(q,a),A.zj(B.c1,new A.HH(!1,A.avV(A.oK(!0,p,A.Ol(m,new A.tK(r,s,l)),p,p,p,q.y,!1,p,p,p,p,p,!0),n),p),o,q.gaaS(),p,p,o),p,t.en),p)}}
 A.a9p.prototype={
 $1(a){var s=this.a.c
@@ -77735,7 +77735,7 @@ return!1}return!0},
 tP(){this.fr.tP()
 this.FM()},
 FM(){var s,r,q,p,o,n,m=this,l=m.w
-switch(l.a.c.a){case 0:s=B.Sd
+switch(l.a.c.a){case 0:s=B.Sc
 break
 case 2:s=B.S4
 break
@@ -79874,7 +79874,7 @@ r.xR()
 return s.aZ()},
 l(){var s,r,q,p,o=this
 for(s=o.b,r=s.length,q=o.gE_(),p=0;p<s.length;s.length===r||(0,A.y)(s),++p)s[p].L(q)
-o.b=B.LP
+o.b=B.LQ
 o.y=!1
 o.dd()},
 e_(a,b){return a.ml(b)},
@@ -80684,7 +80684,7 @@ g.p2=A.m(t.D2,q)
 p=g.p1
 s=s.c
 g.p1=A.m(s,q)
-for(o=0;o<11;++o){n=B.KY[o]
+for(o=0;o<11;++o){n=B.L_[o]
 m=f.akD(n)
 l=m==null?null:m.a
 k=p.h(0,n)
@@ -87080,7 +87080,7 @@ r.c.Jv(r.d,r.e)
 s.mE()},
 $S:0}
 A.ajA.prototype={
-$0(){var s,r,q,p,o=this.b.at,n=A.yC(o),m=A.yD(o),l=A.aA9(o),k=B.Lz[o]
+$0(){var s,r,q,p,o=this.b.at,n=A.yC(o),m=A.yD(o),l=A.aA9(o),k=B.LA[o]
 o=A.k(n).i("aO<1,2>")
 s=this.a
 if(new A.aO(n,o).cC(0,new A.ajg(s)))r=m===0||s.a.c.f>=m
@@ -87725,7 +87725,7 @@ m=A.bC(20)
 return A.iS(B.cd,A.b([r,A.hl(16,A.cf(j,A.bz(j,B.a0h,B.p,j,j,new A.bm(n,j,A.cM(B.af,1),m,j,j,B.D),j,j,j,B.I4,j,j,j),B.E,!1,j,j,j,j,j,j,j,j,j,j,j,j,j,j,k.c.gasS(),j,j,j,j,j,j),j,j,j,16,j,j)],q),B.a2,B.c5)}}
 A.nh.prototype={
 G(a){var s=t.h.a(A.X(a).c.h(0,A.aI(t.r))).a,r=A.bC(12),q=t.aM
-q=A.W(new A.a6(B.Mn,new A.ahn(),q),q.i("aw.E"))
+q=A.W(new A.a6(B.KT,new A.ahn(),q),q.i("aw.E"))
 q=A.d9(A.ul(A.ba(q,B.y,B.l,B.ab,0),null,B.aB),null,17976931348623157e292)
 return A.kk(A.b([A.eH(B.a0v,new A.aho(this,a),null)],t.p),s,q,new A.cz(r,B.CV),B.SY)}}
 A.ahn.prototype={
@@ -87760,7 +87760,7 @@ l(){this.a.f.L(this.gPU())
 this.aD()},
 G(a){return A.ba(A.b([this.a5C(),A.d2(this.a5o(),1)],t.p),B.y,B.l,B.m,0)},
 a5C(){var s,r,q,p=this,o=null,n=t.p,m=A.b([],n)
-for(s=0;s<5;++s){r=B.Ld[s]
+for(s=0;s<5;++s){r=B.Lf[s]
 q=p.a.f.a
 if(q==null)q=p.d
 m.push(new A.n7(r.toUpperCase(),q===s,new A.ata(p,s),o))}m=A.d2(A.ul(A.bl(m,B.q,o,B.l,B.m),o,B.aP),1)
@@ -88001,11 +88001,11 @@ s=t.p
 r=A.b([B.a3M],s)
 for(n=n.b,q=0;q<6;++q){p=A.b([],s)
 if(q>0)p.push(new A.hN(14,A.Z(38,n.m()>>>16&255,n.m()>>>8&255,n.m()&255),o))
-p.push(new A.vS(B.L6[q],o))
+p.push(new A.vS(B.L8[q],o))
 B.b.M(r,p)}r.push(B.a3N)
 for(q=0;q<8;++q){p=A.b([],s)
 if(q>0)p.push(new A.hN(14,A.Z(38,n.m()>>>16&255,n.m()>>>8&255,n.m()&255),o))
-p.push(new A.vS(B.Mf[q],o))
+p.push(new A.vS(B.Mg[q],o))
 B.b.M(r,p)}return A.ba(r,B.y,B.l,B.m,0)}}
 A.vS.prototype={
 G(a){var s,r,q,p=null,o=B.aM.h(0,this.c),n=o.f
@@ -91968,7 +91968,7 @@ B.Ee=new A.ahs()
 B.aJ=new A.aht()
 B.dl=new A.ahv()
 B.eV=new A.Ot(0,0,0,0)
-B.LR=s([],A.af("x<a05>"))
+B.LS=s([],A.af("x<a05>"))
 B.a46=new A.ahA()
 B.fa=new A.OP()
 B.dm=new A.OQ()
@@ -92614,10 +92614,10 @@ B.pQ=new A.zf(0,"opportunity")
 B.lB=new A.zf(2,"mandatory")
 B.pR=new A.zf(3,"endOfText")
 B.JR=new A.zi(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.LC=s([1373.2198709594231,-1100.4251190754821,-7.278681089101213],t.n)
-B.L7=s([-271.815969077903,559.6580465940733,-32.46047482791194],t.n)
+B.LD=s([1373.2198709594231,-1100.4251190754821,-7.278681089101213],t.n)
+B.L9=s([-271.815969077903,559.6580465940733,-32.46047482791194],t.n)
 B.My=s([1.9622899599665666,-57.173814538844006,308.7233197812385],t.n)
-B.JU=s([B.LC,B.L7,B.My],t.zg)
+B.JU=s([B.LD,B.L9,B.My],t.zg)
 B.ix=s([1,5,10],t.t)
 B.pS=s(["text","multiline","number","phone","datetime","emailAddress","url","visiblePassword","name","address","none","webSearch","twitter"],t.s)
 B.Kh=s([4,9,14,19],t.t)
@@ -92625,10 +92625,10 @@ B.Ki=s([500,1000,2500,6000],t.t)
 B.nq=new A.Fj(0,"named")
 B.Cc=new A.Fj(1,"anonymous")
 B.Kt=s([B.nq,B.Cc],A.af("x<Fj>"))
-B.L9=s([0.41233895,0.35762064,0.18051042],t.n)
+B.Lb=s([0.41233895,0.35762064,0.18051042],t.n)
 B.KO=s([0.2126,0.7152,0.0722],t.n)
 B.Ms=s([0.01932141,0.11916382,0.95034478],t.n)
-B.dv=s([B.L9,B.KO,B.Ms],t.zg)
+B.dv=s([B.Lb,B.KO,B.Ms],t.zg)
 B.pT=s([0,4,12,1,5,13,3,7,15],t.t)
 B.a2T=new A.h0(0,1)
 B.a2Y=new A.h0(0.5,1)
@@ -92649,21 +92649,40 @@ B.hg=new A.lp(3,"justify")
 B.a_=new A.lp(4,"start")
 B.jz=new A.lp(5,"end")
 B.KF=s([B.d9,B.eL,B.bW,B.hg,B.a_,B.jz],A.af("x<lp>"))
-B.KV=s([2,1.13276676],t.n)
+B.KX=s([2,1.13276676],t.n)
 B.JX=s([2.18349805,1.20311921],t.n)
-B.M1=s([2.33888662,1.28698796],t.n)
-B.M3=s([2.48660575,1.36351941],t.n)
+B.M2=s([2.33888662,1.28698796],t.n)
+B.M4=s([2.48660575,1.36351941],t.n)
 B.KK=s([2.62226596,1.44717976],t.n)
 B.KS=s([2.7514899,1.53385819],t.n)
-B.Lt=s([3.36298265,1.98288283],t.n)
-B.L_=s([4.08649929,2.23811846],t.n)
-B.Lh=s([4.85481134,2.47563463],t.n)
+B.Lu=s([3.36298265,1.98288283],t.n)
+B.L1=s([4.08649929,2.23811846],t.n)
+B.Lj=s([4.85481134,2.47563463],t.n)
 B.KN=s([5.62945551,2.72948597],t.n)
-B.KX=s([6.43023796,2.98020421],t.n)
-B.pU=s([B.KV,B.JX,B.M1,B.M3,B.KK,B.KS,B.Lt,B.L_,B.Lh,B.KN,B.KX],t.zg)
+B.KZ=s([6.43023796,2.98020421],t.n)
+B.pU=s([B.KX,B.JX,B.M2,B.M4,B.KK,B.KS,B.Lu,B.L1,B.Lj,B.KN,B.KZ],t.zg)
 B.KJ=s([B.ke,B.kf],A.af("x<wP>"))
 B.KM=s([18,15,10,12,15,18,15,12,12],t.n)
 B.KQ=s([B.aV,B.dV,B.f6,B.bu,B.cf,B.ae],t.BV)
+B.KU=s(["New Dashboard expand button!","Worker Interface changed.","Workshop worker equips a new tool when the current tool breaks.","Workshop has a craft menu now, which allows you to select what you are crafting.","Workshop and Tool Smith now have an input quantity option.","Every upgrade to the hut will now require 1 additional worker.","Areas now have a progressively higher cost to expand and now require an additional worker for every level.","Worker cards expanded in most menus."],t.s)
+B.Si=new A.a2("0.1.0+8",B.KU)
+B.Me=s(["In Game WIKI - Please provide feedback","When selecting a building that you can't afford you will now get an error message in the info bar.","Changed the temporary plank icon to a temporary plank emoji. (kinda made more sense)","Scouting an area now unassigns active workers on the game board.","Forest resources modified to: 50% trees, ~37% mushrooms, ~13% rock piles.","Workshop now costs 25 wood and 25 stone."],t.s)
+B.Se=new A.a2("0.1.0+7",B.Me)
+B.Ku=s(["Areas that have adaptive foraging and/or auto-scout will now display an icon on the bottom right of the board grid.","Worker cards now display information when a worker is upgrading a building","Efficient harvesting is now more of an incremental upgrade","When a worker axe/pick breaks you will get the last harvested material now.","New Researchable for every tile that increases the max cycles.","New Saw tool for processing wood into planks",'New "Workshop" building that processes various materials requiring a worker.',"Time is now displayed in the Area Board upgrade dialogue"],t.s)
+B.Sb=new A.a2("0.1.0+6",B.Ku)
+B.JW=s(["Themes added!","Storehouses can now be upgraded to level 3, giving a +20 to all resources for every level.","Better area size upgrade dialogue.","Better research and Tool Smith menu UX","Houses can be upgraded to level 4, granting one additional worker per level.","Upgrading area size now requires worker and takes time."],t.s)
+B.S6=new A.a2("0.1.0+5",B.JW)
+B.M9=s(["Buildings now take time to construct and require a worker","Buildings on the homeboard can now be dragged to move","Reduced the cost of the first upgrade to the area boards","Stat tracking system added. Find the button in the dashboard!"],t.s)
+B.RI=new A.a2("0.1.0+4",B.M9)
+B.M8=s(["Research building added","Max 3 Research buildings",u.X,"auto-scout","Many more upgrades!","Research is time based, it will advance while you are offline."],t.s)
+B.RR=new A.a2("0.1.0+3",B.M8)
+B.Ls=s(["Added Trading Post, allowing players to sell items.","Centered Game Board","Area Grids now start at 2x2 and can be upgraded or re-scouted","Each area tier will take more time to scout and cost more to upgradeThe home grid now starts at a 4x4 and can also be upgraded","Research building added",u.X],t.s)
+B.RE=new A.a2("0.1.0+2",B.Ls)
+B.L0=s(["Added version number to the info bar","Locked Developer buttons behind a password","Confirmation dialog before resetting the game","Fixed resource distribution weighting in the Field"],t.s)
+B.RK=new A.a2("0.1.0+1",B.L0)
+B.Mz=s(["Initial beta release"],t.s)
+B.RV=new A.a2("0.1.0",B.Mz)
+B.KT=s([B.Si,B.Se,B.Sb,B.S6,B.RI,B.RR,B.RE,B.RK,B.RV],A.af("x<+(C,V<C>)>"))
 B.cg=new A.cv(3,"cave")
 B.ch=new A.cv(4,"quarry")
 B.ci=new A.cv(5,"deepMine")
@@ -92694,7 +92713,7 @@ B.b7=new A.eJ(7,"suffixIcon")
 B.ca=new A.eJ(8,"helperError")
 B.cb=new A.eJ(9,"counter")
 B.dc=new A.eJ(10,"container")
-B.KY=s([B.b_,B.bd,B.an,B.bp,B.bq,B.br,B.aw,B.b7,B.ca,B.cb,B.dc],A.af("x<eJ>"))
+B.L_=s([B.b_,B.bd,B.an,B.bp,B.bq,B.br,B.aw,B.b7,B.ca,B.cb,B.dc],A.af("x<eJ>"))
 B.MA=new A.pd("en",null,"US")
 B.pV=s([B.MA],t.ss)
 B.pW=s([0,41,61,101,131,181,251,301,360],t.n)
@@ -92706,32 +92725,32 @@ B.a2J=new A.lD(8,0.12)
 B.a2I=new A.lD(12,0.14)
 B.pX=s([B.a2H,B.a2M,B.a2K,B.a2L,B.a2J,B.a2I],A.af("x<lD>"))
 B.pZ=s([0,21,51,121,151,191,271,321,360],t.n)
-B.L6=s([B.eD,B.h2,B.bm,B.j9,B.eE,B.eF],t.Ny)
+B.L8=s([B.eD,B.h2,B.bm,B.j9,B.eE,B.eF],t.Ny)
 B.CM=new A.I7(2,"outer")
 B.os=new A.n(0.09803921568627451,0,0,0,B.e)
 B.i=new A.h(0,0)
 B.D5=new A.e2(0.2,B.CM,B.os,B.i,11)
-B.L8=s([B.D5],t.sq)
-B.Ld=s(["Resources","Buildings","Research","Tools","Areas"],t.s)
+B.La=s([B.D5],t.sq)
+B.Lf=s(["Resources","Buildings","Research","Tools","Areas"],t.s)
 B.B8=new A.BQ(0,"left")
 B.B9=new A.BQ(1,"right")
-B.Lg=s([B.B8,B.B9],A.af("x<BQ>"))
+B.Li=s([B.B8,B.B9],A.af("x<BQ>"))
 B.ah=new A.C3(0,"upstream")
-B.Li=s([B.ah,B.k],A.af("x<C3>"))
+B.Lk=s([B.ah,B.k],A.af("x<C3>"))
 B.ac=new A.C7(0,"rtl")
 B.A=new A.C7(1,"ltr")
 B.lD=s([B.ac,B.A],A.af("x<C7>"))
 B.Ep=new A.oa(0,"auto")
 B.Eq=new A.oa(1,"full")
 B.Er=new A.oa(2,"chromium")
-B.Lv=s([B.Ep,B.Eq,B.Er,B.cZ],A.af("x<oa>"))
+B.Lw=s([B.Ep,B.Eq,B.Er,B.cZ],A.af("x<oa>"))
 B.eW=new A.nk(0,"plank")
-B.Lx=s([B.eW],A.af("x<nk>"))
+B.Ly=s([B.eW],A.af("x<nk>"))
 B.Dd=new A.dl(1,"house")
-B.Ly=s([B.aV,B.Dd,B.dV,B.bu,B.cf,B.ae,B.f6],t.BV)
-B.Lz=s(["2nd","3rd","4th"],t.s)
+B.Lz=s([B.aV,B.Dd,B.dV,B.bu,B.cf,B.ae,B.f6],t.BV)
+B.LA=s(["2nd","3rd","4th"],t.s)
 B.bM=new A.f6(1,"fuchsia")
-B.LA=s([B.au,B.bM,B.O,B.bN,B.b6,B.bO],A.af("x<f6>"))
+B.LB=s([B.au,B.bM,B.O,B.bN,B.b6,B.bO],A.af("x<f6>"))
 B.BV=new A.vc(0,"topLeft")
 B.BY=new A.vc(3,"bottomRight")
 B.a2C=new A.lC(B.BV,B.BY)
@@ -92740,9 +92759,9 @@ B.BW=new A.vc(1,"topRight")
 B.BX=new A.vc(2,"bottomLeft")
 B.a2D=new A.lC(B.BW,B.BX)
 B.a2E=new A.lC(B.BX,B.BW)
-B.LB=s([B.a2C,B.a2F,B.a2D,B.a2E],A.af("x<lC>"))
-B.Sa=new A.a2(0.01339448,0.05994973)
-B.S9=new A.a2(0.13664115,0.13592082)
+B.LC=s([B.a2C,B.a2F,B.a2D,B.a2E],A.af("x<lC>"))
+B.S9=new A.a2(0.01339448,0.05994973)
+B.S8=new A.a2(0.13664115,0.13592082)
 B.RT=new A.a2(0.24545546,0.14099516)
 B.RX=new A.a2(0.32353151,0.12808021)
 B.S5=new A.a2(0.39093068,0.11726264)
@@ -92751,12 +92770,12 @@ B.RN=new A.a2(0.49817452,0.10026175)
 B.RU=new A.a2(0.54105583,0.09344429)
 B.RL=new A.a2(0.57812578,0.08748984)
 B.S2=new A.a2(0.61050961,0.08224722)
-B.Se=new A.a2(0.63903989,0.07759639)
+B.Sd=new A.a2(0.63903989,0.07759639)
 B.RM=new A.a2(0.66416338,0.0734653)
 B.RG=new A.a2(0.68675338,0.06974996)
 B.S3=new A.a2(0.70678034,0.06529512)
-B.q0=s([B.Sa,B.S9,B.RT,B.RX,B.S5,B.RF,B.RN,B.RU,B.RL,B.S2,B.Se,B.RM,B.RG,B.S3],A.af("x<+(G,G)>"))
-B.LD=s([35,30,20,25,30,35,30,25,25],t.n)
+B.q0=s([B.S9,B.S8,B.RT,B.RX,B.S5,B.RF,B.RN,B.RU,B.RL,B.S2,B.Sd,B.RM,B.RG,B.S3],A.af("x<+(G,G)>"))
+B.LE=s([35,30,20,25,30,35,30,25,25],t.n)
 B.z=new A.br(0,"tree")
 B.G=new A.br(1,"boulder")
 B.aA=new A.br(2,"ironOre")
@@ -92767,30 +92786,30 @@ B.bJ=new A.br(6,"rockPile")
 B.cq=new A.br(7,"bushPile")
 B.cr=new A.br(8,"plank")
 B.fG=s([B.z,B.G,B.aA,B.a6,B.b5,B.aY,B.bJ,B.cq,B.cr],t.ay)
-B.LG=s(["click","scroll"],t.s)
+B.LH=s(["click","scroll"],t.s)
 B.Dh=new A.rh()
 B.h3=new A.MX(1,"page")
 B.ji=new A.er(B.bs,B.h3)
-B.LH=s([B.Dh,B.ji],A.af("x<aU>"))
-B.LQ=s([],t.QP)
+B.LI=s([B.Dh,B.ji],A.af("x<aU>"))
+B.LR=s([],t.QP)
 B.q2=s([],A.af("x<aTs>"))
-B.LN=s([],t.D)
-B.LM=s([],t.fJ)
-B.LL=s([],t.ER)
+B.LO=s([],t.D)
+B.LN=s([],t.fJ)
+B.LM=s([],t.ER)
 B.a4d=s([],t.ss)
-B.LS=s([],t.tc)
+B.LT=s([],t.tc)
 B.iz=s([],t.jl)
-B.LU=s([],t.wi)
-B.LT=s([],A.af("x<aBg<@>>"))
+B.LV=s([],t.wi)
+B.LU=s([],A.af("x<aBg<@>>"))
 B.lF=s([],t.AO)
-B.LP=s([],t.D1)
+B.LQ=s([],t.D1)
 B.lG=s([],t.QF)
-B.LW=s([],t.Lx)
-B.LO=s([],t.AS)
+B.LX=s([],t.Lx)
+B.LP=s([],t.AS)
 B.a4e=s([],t.p)
 B.q1=s([],t.t)
 B.q3=s([],t.ee)
-B.LV=s([],t.XS)
+B.LW=s([],t.XS)
 B.nC=new A.dM(1,"midnight")
 B.nD=new A.dM(2,"forest")
 B.nE=new A.dM(3,"ember")
@@ -92815,35 +92834,16 @@ B.hm=new A.f8(10,"done")
 B.q5=s([B.hl,B.mY,B.jJ,B.jK,B.mZ,B.n_,B.n0,B.n1,B.n2,B.n3,B.hm],A.af("x<f8>"))
 B.wl=new A.h(0,2)
 B.D4=new A.e2(0.75,B.f5,B.os,B.wl,1.5)
-B.M4=s([B.D4],t.sq)
+B.M5=s([B.D4],t.sq)
 B.ak=s([B.a5,B.bG,B.by,B.cg,B.ch,B.ci],t.w3)
 B.fH=s([B.df,B.cu,B.hz,B.hA,B.hB],t.QP)
-B.Mf=s([B.ja,B.jb,B.jc,B.jd,B.j5,B.j6,B.j7,B.j8],t.Ny)
+B.Mg=s([B.ja,B.jb,B.jc,B.jd,B.j5,B.j6,B.j7,B.j8],t.Ny)
 B.Ky=s([0.001200833568784504,0.002389694492170889,0.0002795742885861124],t.n)
-B.LI=s([0.0005891086651375999,0.0029785502573438758,0.0003270666104008398],t.n)
+B.LJ=s([0.0005891086651375999,0.0029785502573438758,0.0003270666104008398],t.n)
 B.KL=s([0.00010146692491640572,0.0005364214359186694,0.0032979401770712076],t.n)
-B.Mj=s([B.Ky,B.LI,B.KL],t.zg)
-B.Mk=s([45,95,45,20,45,90,45,45,45],t.n)
-B.Ml=s([120,120,20,45,20,15,20,120,120],t.n)
-B.Ls=s(["New Dashboard expand button!","Worker Interface changed.","Workshop worker equips a new tool when the current tool breaks.","Workshop has a craft menu now, which allows you to select what you are crafting.","Workshop and Tool Smith now have an input quantity option.","Every upgrade to the hut will now require 1 additional worker.","Areas now have a progressively higher cost to expand.","Worker cards expanded in most menus."],t.s)
-B.S6=new A.a2("0.1.0+8",B.Ls)
-B.Md=s(["In Game WIKI - Please provide feedback","When selecting a building that you can't afford you will now get an error message in the info bar.","Changed the temporary plank icon to a temporary plank emoji. (kinda made more sense)","Scouting an area now unassigns active workers on the game board.","Forest resources modified to: 50% trees, ~37% mushrooms, ~13% rock piles.","Workshop now costs 25 wood and 25 stone."],t.s)
-B.Sf=new A.a2("0.1.0+7",B.Md)
-B.Ku=s(["Areas that have adaptive foraging and/or auto-scout will now display an icon on the bottom right of the board grid.","Worker cards now display information when a worker is upgrading a building","Efficient harvesting is now more of an incremental upgrade","When a worker axe/pick breaks you will get the last harvested material now.","New Researchable for every tile that increases the max cycles.","New Saw tool for processing wood into planks",'New "Workshop" building that processes various materials requiring a worker.',"Time is now displayed in the Area Board upgrade dialogue"],t.s)
-B.Sc=new A.a2("0.1.0+6",B.Ku)
-B.JW=s(["Themes added!","Storehouses can now be upgraded to level 3, giving a +20 to all resources for every level.","Better area size upgrade dialogue.","Better research and Tool Smith menu UX","Houses can be upgraded to level 4, granting one additional worker per level.","Upgrading area size now requires worker and takes time."],t.s)
-B.S7=new A.a2("0.1.0+5",B.JW)
-B.M8=s(["Buildings now take time to construct and require a worker","Buildings on the homeboard can now be dragged to move","Reduced the cost of the first upgrade to the area boards","Stat tracking system added. Find the button in the dashboard!"],t.s)
-B.RI=new A.a2("0.1.0+4",B.M8)
-B.M7=s(["Research building added","Max 3 Research buildings",u.X,"auto-scout","Many more upgrades!","Research is time based, it will advance while you are offline."],t.s)
-B.RR=new A.a2("0.1.0+3",B.M7)
-B.Lq=s(["Added Trading Post, allowing players to sell items.","Centered Game Board","Area Grids now start at 2x2 and can be upgraded or re-scouted","Each area tier will take more time to scout and cost more to upgradeThe home grid now starts at a 4x4 and can also be upgraded","Research building added",u.X],t.s)
-B.RE=new A.a2("0.1.0+2",B.Lq)
-B.KZ=s(["Added version number to the info bar","Locked Developer buttons behind a password","Confirmation dialog before resetting the game","Fixed resource distribution weighting in the Field"],t.s)
-B.RK=new A.a2("0.1.0+1",B.KZ)
-B.Mz=s(["Initial beta release"],t.s)
-B.RV=new A.a2("0.1.0",B.Mz)
-B.Mn=s([B.S6,B.Sf,B.Sc,B.S7,B.RI,B.RR,B.RE,B.RK,B.RV],A.af("x<+(C,V<C>)>"))
+B.Mk=s([B.Ky,B.LJ,B.KL],t.zg)
+B.Ml=s([45,95,45,20,45,90,45,45,45],t.n)
+B.Mm=s([120,120,20,45,20,15,20,120,120],t.n)
 B.eq=new A.hi(0,"controlModifier")
 B.er=new A.hi(1,"shiftModifier")
 B.es=new A.hi(2,"altModifier")
@@ -93374,17 +93374,17 @@ B.Ol=new A.bP(B.PK,[458907,458873,458978,458982,458833,458832,458831,458834,4588
 B.iL=new A.a7([B.bG,"Field",B.by,"Forest",B.cg,"Cave",B.ch,"Quarry",B.ci,"Deep Mine"],t.MK)
 B.Mo=s([20,60,180,540,1000],t.t)
 B.Mu=s([50,150,450,1350,2500],t.t)
-B.Lk=s([75,225,680,2000,4000],t.t)
-B.Lw=s([100,300,900,2700,5500],t.t)
+B.Lm=s([75,225,680,2000,4000],t.t)
+B.Lx=s([100,300,900,2700,5500],t.t)
 B.Mx=s([150,450,1350,4000,8000],t.t)
-B.Ou=new A.a7([B.bG,B.Mo,B.by,B.Mu,B.cg,B.Lk,B.ch,B.Lw,B.ci,B.Mx],A.af("a7<cv,V<q>>"))
+B.Ou=new A.a7([B.bG,B.Mo,B.by,B.Mu,B.cg,B.Lm,B.ch,B.Lx,B.ci,B.Mx],A.af("a7<cv,V<q>>"))
 B.Ov=new A.a7([B.bG,"\ud83c\udf31",B.by,"\ud83c\udf32",B.cg,"\ud83e\udea8",B.ch,"\u26cf\ufe0f",B.ci,"\ud83d\udc8e"],t.MK)
 B.KH=s([B.a6,B.cq,B.bJ],t.ay)
-B.Lp=s([B.z,B.aY,B.bJ],t.ay)
-B.Lb=s([B.G,B.aY],t.ay)
-B.La=s([B.G,B.aA],t.ay)
-B.Lc=s([B.aA,B.b5],t.ay)
-B.dF=new A.a7([B.bG,B.KH,B.by,B.Lp,B.cg,B.Lb,B.ch,B.La,B.ci,B.Lc],A.af("a7<cv,V<br>>"))
+B.Lr=s([B.z,B.aY,B.bJ],t.ay)
+B.Ld=s([B.G,B.aY],t.ay)
+B.Lc=s([B.G,B.aA],t.ay)
+B.Le=s([B.aA,B.b5],t.ay)
+B.dF=new A.a7([B.bG,B.KH,B.by,B.Lr,B.cg,B.Ld,B.ch,B.Lc,B.ci,B.Le],A.af("a7<cv,V<br>>"))
 B.Ow=new A.a7([0,"FontWeight.w100",1,"FontWeight.w200",2,"FontWeight.w300",3,"FontWeight.w400",4,"FontWeight.w500",5,"FontWeight.w600",6,"FontWeight.w700",7,"FontWeight.w800",8,"FontWeight.w900"],A.af("a7<q,C>"))
 B.wj={AVRInput:0,AVRPower:1,Accel:2,Accept:3,Again:4,AllCandidates:5,Alphanumeric:6,AltGraph:7,AppSwitch:8,ArrowDown:9,ArrowLeft:10,ArrowRight:11,ArrowUp:12,Attn:13,AudioBalanceLeft:14,AudioBalanceRight:15,AudioBassBoostDown:16,AudioBassBoostToggle:17,AudioBassBoostUp:18,AudioFaderFront:19,AudioFaderRear:20,AudioSurroundModeNext:21,AudioTrebleDown:22,AudioTrebleUp:23,AudioVolumeDown:24,AudioVolumeMute:25,AudioVolumeUp:26,Backspace:27,BrightnessDown:28,BrightnessUp:29,BrowserBack:30,BrowserFavorites:31,BrowserForward:32,BrowserHome:33,BrowserRefresh:34,BrowserSearch:35,BrowserStop:36,Call:37,Camera:38,CameraFocus:39,Cancel:40,CapsLock:41,ChannelDown:42,ChannelUp:43,Clear:44,Close:45,ClosedCaptionToggle:46,CodeInput:47,ColorF0Red:48,ColorF1Green:49,ColorF2Yellow:50,ColorF3Blue:51,ColorF4Grey:52,ColorF5Brown:53,Compose:54,ContextMenu:55,Convert:56,Copy:57,CrSel:58,Cut:59,DVR:60,Delete:61,Dimmer:62,DisplaySwap:63,Eisu:64,Eject:65,End:66,EndCall:67,Enter:68,EraseEof:69,Esc:70,Escape:71,ExSel:72,Execute:73,Exit:74,F1:75,F10:76,F11:77,F12:78,F13:79,F14:80,F15:81,F16:82,F17:83,F18:84,F19:85,F2:86,F20:87,F21:88,F22:89,F23:90,F24:91,F3:92,F4:93,F5:94,F6:95,F7:96,F8:97,F9:98,FavoriteClear0:99,FavoriteClear1:100,FavoriteClear2:101,FavoriteClear3:102,FavoriteRecall0:103,FavoriteRecall1:104,FavoriteRecall2:105,FavoriteRecall3:106,FavoriteStore0:107,FavoriteStore1:108,FavoriteStore2:109,FavoriteStore3:110,FinalMode:111,Find:112,Fn:113,FnLock:114,GoBack:115,GoHome:116,GroupFirst:117,GroupLast:118,GroupNext:119,GroupPrevious:120,Guide:121,GuideNextDay:122,GuidePreviousDay:123,HangulMode:124,HanjaMode:125,Hankaku:126,HeadsetHook:127,Help:128,Hibernate:129,Hiragana:130,HiraganaKatakana:131,Home:132,Hyper:133,Info:134,Insert:135,InstantReplay:136,JunjaMode:137,KanaMode:138,KanjiMode:139,Katakana:140,Key11:141,Key12:142,LastNumberRedial:143,LaunchApplication1:144,LaunchApplication2:145,LaunchAssistant:146,LaunchCalendar:147,LaunchContacts:148,LaunchControlPanel:149,LaunchMail:150,LaunchMediaPlayer:151,LaunchMusicPlayer:152,LaunchPhone:153,LaunchScreenSaver:154,LaunchSpreadsheet:155,LaunchWebBrowser:156,LaunchWebCam:157,LaunchWordProcessor:158,Link:159,ListProgram:160,LiveContent:161,Lock:162,LogOff:163,MailForward:164,MailReply:165,MailSend:166,MannerMode:167,MediaApps:168,MediaAudioTrack:169,MediaClose:170,MediaFastForward:171,MediaLast:172,MediaPause:173,MediaPlay:174,MediaPlayPause:175,MediaRecord:176,MediaRewind:177,MediaSkip:178,MediaSkipBackward:179,MediaSkipForward:180,MediaStepBackward:181,MediaStepForward:182,MediaStop:183,MediaTopMenu:184,MediaTrackNext:185,MediaTrackPrevious:186,MicrophoneToggle:187,MicrophoneVolumeDown:188,MicrophoneVolumeMute:189,MicrophoneVolumeUp:190,ModeChange:191,NavigateIn:192,NavigateNext:193,NavigateOut:194,NavigatePrevious:195,New:196,NextCandidate:197,NextFavoriteChannel:198,NextUserProfile:199,NonConvert:200,Notification:201,NumLock:202,OnDemand:203,Open:204,PageDown:205,PageUp:206,Pairing:207,Paste:208,Pause:209,PinPDown:210,PinPMove:211,PinPToggle:212,PinPUp:213,Play:214,PlaySpeedDown:215,PlaySpeedReset:216,PlaySpeedUp:217,Power:218,PowerOff:219,PreviousCandidate:220,Print:221,PrintScreen:222,Process:223,Props:224,RandomToggle:225,RcLowBattery:226,RecordSpeedNext:227,Redo:228,RfBypass:229,Romaji:230,STBInput:231,STBPower:232,Save:233,ScanChannelsToggle:234,ScreenModeNext:235,ScrollLock:236,Select:237,Settings:238,ShiftLevel5:239,SingleCandidate:240,Soft1:241,Soft2:242,Soft3:243,Soft4:244,Soft5:245,Soft6:246,Soft7:247,Soft8:248,SpeechCorrectionList:249,SpeechInputToggle:250,SpellCheck:251,SplitScreenToggle:252,Standby:253,Subtitle:254,Super:255,Symbol:256,SymbolLock:257,TV:258,TV3DMode:259,TVAntennaCable:260,TVAudioDescription:261,TVAudioDescriptionMixDown:262,TVAudioDescriptionMixUp:263,TVContentsMenu:264,TVDataService:265,TVInput:266,TVInputComponent1:267,TVInputComponent2:268,TVInputComposite1:269,TVInputComposite2:270,TVInputHDMI1:271,TVInputHDMI2:272,TVInputHDMI3:273,TVInputHDMI4:274,TVInputVGA1:275,TVMediaContext:276,TVNetwork:277,TVNumberEntry:278,TVPower:279,TVRadioService:280,TVSatellite:281,TVSatelliteBS:282,TVSatelliteCS:283,TVSatelliteToggle:284,TVTerrestrialAnalog:285,TVTerrestrialDigital:286,TVTimer:287,Tab:288,Teletext:289,Undo:290,Unidentified:291,VideoModeNext:292,VoiceDial:293,WakeUp:294,Wink:295,Zenkaku:296,ZenkakuHankaku:297,ZoomIn:298,ZoomOut:299,ZoomToggle:300}
 B.Oz=new A.bP(B.wj,[B.tA,B.tB,B.qg,B.qv,B.qw,B.qU,B.qV,B.iC,B.v3,B.ck,B.c2,B.c3,B.cl,B.qx,B.tt,B.tu,B.tv,B.uV,B.tw,B.tx,B.ty,B.tz,B.uW,B.uX,B.t4,B.t6,B.t5,B.ba,B.qJ,B.qK,B.tm,B.tn,B.to,B.tp,B.tq,B.tr,B.ts,B.v4,B.qL,B.v5,B.qy,B.fK,B.tC,B.tD,B.lM,B.rS,B.tK,B.qW,B.tE,B.tF,B.tG,B.tH,B.tI,B.tJ,B.qX,B.qz,B.qY,B.qn,B.qo,B.qp,B.uI,B.bb,B.tL,B.tM,B.rc,B.qM,B.dx,B.v6,B.iB,B.qq,B.fJ,B.fJ,B.qr,B.qA,B.tN,B.rm,B.rv,B.rw,B.rx,B.ry,B.rz,B.rA,B.rB,B.rC,B.rD,B.rE,B.rn,B.rF,B.rG,B.rH,B.rI,B.rJ,B.ro,B.rp,B.rq,B.rr,B.rs,B.rt,B.ru,B.tO,B.tP,B.tQ,B.tR,B.tS,B.tT,B.tU,B.tV,B.tW,B.tX,B.tY,B.tZ,B.qZ,B.qB,B.lL,B.qh,B.v7,B.v8,B.r_,B.r0,B.r1,B.r2,B.u_,B.u0,B.u1,B.r9,B.ra,B.rd,B.v9,B.qC,B.qR,B.re,B.rf,B.dy,B.qi,B.u2,B.fN,B.u3,B.rb,B.rg,B.rh,B.ri,B.vF,B.vG,B.va,B.tc,B.t7,B.tk,B.t8,B.ti,B.tl,B.t9,B.ta,B.tb,B.tj,B.td,B.te,B.tf,B.tg,B.th,B.u4,B.u5,B.u6,B.u7,B.qN,B.rT,B.rU,B.rV,B.vc,B.u8,B.uJ,B.uU,B.u9,B.ua,B.ub,B.uc,B.rW,B.ud,B.ue,B.uf,B.uK,B.uL,B.uM,B.uN,B.rX,B.uO,B.rY,B.rZ,B.uY,B.uZ,B.v0,B.v_,B.r3,B.uP,B.uQ,B.uR,B.uS,B.t_,B.r4,B.ug,B.uh,B.r5,B.vb,B.iD,B.ui,B.t0,B.fL,B.fM,B.uT,B.qs,B.qD,B.uj,B.uk,B.ul,B.um,B.qE,B.un,B.uo,B.up,B.qO,B.qP,B.r6,B.t1,B.qQ,B.r7,B.qF,B.uq,B.ur,B.us,B.qt,B.ut,B.rj,B.uy,B.uz,B.t2,B.uu,B.uv,B.iE,B.qG,B.uw,B.qm,B.r8,B.rK,B.rL,B.rM,B.rN,B.rO,B.rP,B.rQ,B.rR,B.v1,B.v2,B.t3,B.ux,B.qS,B.uA,B.qj,B.qk,B.ql,B.uC,B.ve,B.vf,B.vg,B.vh,B.vi,B.vj,B.vk,B.uD,B.vl,B.vm,B.vn,B.vo,B.vp,B.vq,B.vr,B.vs,B.vt,B.vu,B.vv,B.vw,B.uE,B.vx,B.vy,B.vz,B.vA,B.vB,B.vC,B.vD,B.vE,B.iA,B.uB,B.qu,B.qf,B.uF,B.vd,B.qT,B.uG,B.rk,B.rl,B.qH,B.qI,B.uH],A.af("bP<C,f>"))
@@ -93402,9 +93402,9 @@ B.OY=new A.a7([B.z,15,B.aY,5],t.P)
 B.Oy=new A.a7([B.G,10,B.aY,8],t.P)
 B.OI=new A.a7([B.G,15,B.aA,5],t.P)
 B.Pg=new A.a7([B.aA,10,B.b5,3],t.P)
-B.KW=s([B.OW,B.OY,B.Oy,B.OI,B.Pg],t.vw)
-B.M6=s([120,300,720,1680,3840],t.t)
-B.SF=new A.eq("Adaptive Foraging","\ud83d\udd00","Workers auto-move to an adjacent node when theirs runs out. Each level extends to the next area.",120,B.bU,5,0,B.KW,B.M6,null)
+B.KY=s([B.OW,B.OY,B.Oy,B.OI,B.Pg],t.vw)
+B.M7=s([120,300,720,1680,3840],t.t)
+B.SF=new A.eq("Adaptive Foraging","\ud83d\udd00","Workers auto-move to an adjacent node when theirs runs out. Each level extends to the next area.",120,B.bU,5,0,B.KY,B.M7,null)
 B.OV=new A.a7([B.a6,15,B.z,8],t.P)
 B.OX=new A.a7([B.z,20,B.aY,8],t.P)
 B.Ox=new A.a7([B.G,15,B.aY,10],t.P)
@@ -93427,19 +93427,19 @@ B.P7=new A.a7([B.z,20],t.P)
 B.P5=new A.a7([B.z,35],t.P)
 B.P8=new A.a7([B.z,65],t.P)
 B.Pb=new A.a7([B.z,120],t.P)
-B.LJ=s([B.we,B.P7,B.P5,B.P8,B.Pb],t.vw)
+B.LK=s([B.we,B.P7,B.P5,B.P8,B.Pb],t.vw)
 B.lC=s([120,270,600,1320,2880],t.t)
 B.pY=s([8,16,30,60,120],t.t)
-B.SC=new A.eq("Forestry","\ud83c\udf32","+1 harvest cycle on all trees per level.",120,B.bU,5,0,B.LJ,B.lC,B.pY)
+B.SC=new A.eq("Forestry","\ud83c\udf32","+1 harvest cycle on all trees per level.",120,B.bU,5,0,B.LK,B.lC,B.pY)
 B.Oh=new A.a7([B.G,8],t.P)
 B.Ob=new A.a7([B.G,16],t.P)
 B.Oe=new A.a7([B.G,30],t.P)
 B.Od=new A.a7([B.G,55],t.P)
 B.O9=new A.a7([B.G,100],t.P)
 B.KR=s([B.Oh,B.Ob,B.Oe,B.Od,B.O9],t.vw)
-B.LX=s([150,360,840,1920,4320],t.t)
-B.LY=s([10,20,38,75,150],t.t)
-B.SA=new A.eq("Stonecutting","\ud83e\udea8","+1 harvest cycle on all boulders per level.",150,B.bU,5,0,B.KR,B.LX,B.LY)
+B.LY=s([150,360,840,1920,4320],t.t)
+B.LZ=s([10,20,38,75,150],t.t)
+B.SA=new A.eq("Stonecutting","\ud83e\udea8","+1 harvest cycle on all boulders per level.",150,B.bU,5,0,B.KR,B.LY,B.LZ)
 B.OZ=new A.a7([B.aA,5],t.P)
 B.P1=new A.a7([B.aA,10],t.P)
 B.P2=new A.a7([B.aA,18],t.P)
@@ -93447,24 +93447,24 @@ B.P_=new A.a7([B.aA,32],t.P)
 B.P0=new A.a7([B.aA,60],t.P)
 B.Mq=s([B.OZ,B.P1,B.P2,B.P_,B.P0],t.vw)
 B.Mp=s([180,400,900,1980,4320],t.t)
-B.Lf=s([15,30,60,120,240],t.t)
-B.SE=new A.eq("Iron Mining","\u2699\ufe0f","+1 harvest cycle on all iron ore per level.",180,B.bU,5,0,B.Mq,B.Mp,B.Lf)
+B.Lh=s([15,30,60,120,240],t.t)
+B.SE=new A.eq("Iron Mining","\u2699\ufe0f","+1 harvest cycle on all iron ore per level.",180,B.bU,5,0,B.Mq,B.Mp,B.Lh)
 B.O3=new A.a7([B.b5,3],t.P)
 B.O5=new A.a7([B.b5,6],t.P)
 B.O6=new A.a7([B.b5,10],t.P)
 B.O4=new A.a7([B.b5,18],t.P)
 B.O2=new A.a7([B.b5,32],t.P)
-B.KU=s([B.O3,B.O5,B.O6,B.O4,B.O2],t.vw)
-B.Me=s([240,540,1200,2640,5760],t.t)
-B.M5=s([20,40,80,160,320],t.t)
-B.SI=new A.eq("Crystal Extraction","\ud83d\udc8e","+1 harvest cycle on all crystals per level.",240,B.bU,5,0,B.KU,B.Me,B.M5)
+B.KW=s([B.O3,B.O5,B.O6,B.O4,B.O2],t.vw)
+B.Mf=s([240,540,1200,2640,5760],t.t)
+B.M6=s([20,40,80,160,320],t.t)
+B.SI=new A.eq("Crystal Extraction","\ud83d\udc8e","+1 harvest cycle on all crystals per level.",240,B.bU,5,0,B.KW,B.Mf,B.M6)
 B.OC=new A.a7([B.aY,8],t.P)
 B.OF=new A.a7([B.aY,16],t.P)
 B.OE=new A.a7([B.aY,30],t.P)
 B.OB=new A.a7([B.aY,55],t.P)
 B.OD=new A.a7([B.aY,100],t.P)
-B.Lu=s([B.OC,B.OF,B.OE,B.OB,B.OD],t.vw)
-B.SG=new A.eq("Mycology","\ud83c\udf44","+1 harvest cycle on all mushrooms per level.",90,B.bU,5,0,B.Lu,B.q_,B.q7)
+B.Lv=s([B.OC,B.OF,B.OE,B.OB,B.OD],t.vw)
+B.SG=new A.eq("Mycology","\ud83c\udf44","+1 harvest cycle on all mushrooms per level.",90,B.bU,5,0,B.Lv,B.q_,B.q7)
 B.Of=new A.a7([B.G,6],t.P)
 B.Oa=new A.a7([B.G,12],t.P)
 B.Og=new A.a7([B.G,22],t.P)
@@ -93477,9 +93477,9 @@ B.P9=new A.a7([B.z,16],t.P)
 B.Pc=new A.a7([B.z,30],t.P)
 B.Pa=new A.a7([B.z,55],t.P)
 B.P4=new A.a7([B.z,100],t.P)
-B.Mg=s([B.P6,B.P9,B.Pc,B.Pa,B.P4],t.vw)
-B.M0=s([6,12,22,45,90],t.t)
-B.SK=new A.eq("Brush Clearing","\ud83c\udf3f","+1 harvest cycle on all bush piles per level.",120,B.bU,5,0,B.Mg,B.lC,B.M0)
+B.Mh=s([B.P6,B.P9,B.Pc,B.Pa,B.P4],t.vw)
+B.M1=s([6,12,22,45,90],t.t)
+B.SK=new A.eq("Brush Clearing","\ud83c\udf3f","+1 harvest cycle on all bush piles per level.",120,B.bU,5,0,B.Mh,B.lC,B.M1)
 B.aM=new A.a7([B.eD,B.Sx,B.h2,B.Sy,B.bm,B.SB,B.j9,B.SH,B.eE,B.SF,B.eF,B.SJ,B.ja,B.Sz,B.jb,B.SC,B.jc,B.SA,B.jd,B.SE,B.j5,B.SI,B.j6,B.SG,B.j7,B.SD,B.j8,B.SK],A.af("a7<cH,eq>"))
 B.PO={alias:0,allScroll:1,basic:2,cell:3,click:4,contextMenu:5,copy:6,forbidden:7,grab:8,grabbing:9,help:10,move:11,none:12,noDrop:13,precise:14,progress:15,text:16,resizeColumn:17,resizeDown:18,resizeDownLeft:19,resizeDownRight:20,resizeLeft:21,resizeLeftRight:22,resizeRight:23,resizeRow:24,resizeUp:25,resizeUpDown:26,resizeUpLeft:27,resizeUpRight:28,resizeUpLeftDownRight:29,resizeUpRightDownLeft:30,verticalText:31,wait:32,zoomIn:33,zoomOut:34}
 B.OG=new A.bP(B.PO,["alias","all-scroll","default","cell","pointer","context-menu","copy","not-allowed","grab","grabbing","help","move","none","no-drop","crosshair","progress","text","col-resize","s-resize","sw-resize","se-resize","w-resize","ew-resize","e-resize","row-resize","n-resize","ns-resize","nw-resize","ne-resize","nwse-resize","nesw-resize","vertical-text","wait","zoom-in","zoom-out"],t.li)
@@ -93501,8 +93501,8 @@ B.w4=new A.a7([B.by,"Forest",B.cg,"Cave",B.ch,"Quarry",B.ci,"Deep Mine"],t.MK)
 B.iM=new A.a7([B.by,20,B.cg,30,B.ch,40,B.ci,50],A.af("a7<cv,q>"))
 B.Gl=new A.n(1,0.10588235294117647,0.2627450980392157,0.19607843137254902,B.e)
 B.F3=new A.n(1,0.3215686274509804,0.7176470588235294,0.5333333333333333,B.e)
-B.Lj=s([B.c8],t.fp)
-B.SP=new A.eE(B.z,"Wood","\ud83c\udf32","\ud83e\udeb5",10,B.Gl,B.F3,!1,4,8,2,B.Lj)
+B.Ll=s([B.c8],t.fp)
+B.SP=new A.eE(B.z,"Wood","\ud83c\udf32","\ud83e\udeb5",10,B.Gl,B.F3,!1,4,8,2,B.Ll)
 B.Gr=new A.n(1,0.23921568627450981,0.23921568627450981,0.23921568627450981,B.e)
 B.lE=s([B.eS],t.fp)
 B.SQ=new A.eE(B.G,"Stone","\ud83e\udea8","\ud83e\udea8",20,B.Gr,B.oh,!1,3,7,2,B.lE)
@@ -93553,57 +93553,57 @@ B.Kn=s([54,null,null,8589935158],t.Z)
 B.Ko=s([55,null,null,8589935159],t.Z)
 B.Kp=s([56,null,null,8589935160],t.Z)
 B.Kr=s([57,null,null,8589935161],t.Z)
-B.Ll=s([8589934852,8589934852,8589934853,null],t.Z)
+B.Ln=s([8589934852,8589934852,8589934853,null],t.Z)
 B.K_=s([4294967555,null,4294967555,null],t.Z)
 B.K0=s([4294968065,null,null,8589935154],t.Z)
 B.K1=s([4294968066,null,null,8589935156],t.Z)
 B.K2=s([4294968067,null,null,8589935158],t.Z)
 B.K3=s([4294968068,null,null,8589935160],t.Z)
 B.K8=s([4294968321,null,null,8589935157],t.Z)
-B.Lm=s([8589934848,8589934848,8589934849,null],t.Z)
+B.Lo=s([8589934848,8589934848,8589934849,null],t.Z)
 B.JZ=s([4294967423,null,null,8589935150],t.Z)
 B.K4=s([4294968069,null,null,8589935153],t.Z)
 B.JY=s([4294967309,null,null,8589935117],t.Z)
 B.K5=s([4294968070,null,null,8589935159],t.Z)
 B.K9=s([4294968327,null,null,8589935152],t.Z)
-B.Ln=s([8589934854,8589934854,8589934855,null],t.Z)
+B.Lp=s([8589934854,8589934854,8589934855,null],t.Z)
 B.K6=s([4294968071,null,null,8589935155],t.Z)
 B.K7=s([4294968072,null,null,8589935161],t.Z)
-B.Lo=s([8589934850,8589934850,8589934851,null],t.Z)
-B.w9=new A.a7(["*",B.Ka,"+",B.Kb,"-",B.Kc,".",B.Kd,"/",B.Ke,"0",B.Kf,"1",B.Kg,"2",B.Kj,"3",B.Kk,"4",B.Kl,"5",B.Km,"6",B.Kn,"7",B.Ko,"8",B.Kp,"9",B.Kr,"Alt",B.Ll,"AltGraph",B.K_,"ArrowDown",B.K0,"ArrowLeft",B.K1,"ArrowRight",B.K2,"ArrowUp",B.K3,"Clear",B.K8,"Control",B.Lm,"Delete",B.JZ,"End",B.K4,"Enter",B.JY,"Home",B.K5,"Insert",B.K9,"Meta",B.Ln,"PageDown",B.K6,"PageUp",B.K7,"Shift",B.Lo],A.af("a7<C,V<q?>>"))
+B.Lq=s([8589934850,8589934850,8589934851,null],t.Z)
+B.w9=new A.a7(["*",B.Ka,"+",B.Kb,"-",B.Kc,".",B.Kd,"/",B.Ke,"0",B.Kf,"1",B.Kg,"2",B.Kj,"3",B.Kk,"4",B.Kl,"5",B.Km,"6",B.Kn,"7",B.Ko,"8",B.Kp,"9",B.Kr,"Alt",B.Ln,"AltGraph",B.K_,"ArrowDown",B.K0,"ArrowLeft",B.K1,"ArrowRight",B.K2,"ArrowUp",B.K3,"Clear",B.K8,"Control",B.Lo,"Delete",B.JZ,"End",B.K4,"Enter",B.JY,"Home",B.K5,"Insert",B.K9,"Meta",B.Lp,"PageDown",B.K6,"PageUp",B.K7,"Shift",B.Lq],A.af("a7<C,V<q?>>"))
 B.Kq=s([B.qe,null,null,B.vV],t.L)
-B.LZ=s([B.vH,null,null,B.vW],t.L)
-B.KT=s([B.vI,null,null,B.vX],t.L)
-B.Lr=s([B.vJ,null,null,B.dA],t.L)
+B.M_=s([B.vH,null,null,B.vW],t.L)
+B.KV=s([B.vI,null,null,B.vX],t.L)
+B.Lt=s([B.vJ,null,null,B.dA],t.L)
 B.JS=s([B.vK,null,null,B.vY],t.L)
-B.Mh=s([B.vL,null,null,B.lS],t.L)
-B.Mc=s([B.vM,null,null,B.fR],t.L)
+B.Mi=s([B.vL,null,null,B.lS],t.L)
+B.Md=s([B.vM,null,null,B.fR],t.L)
 B.Kx=s([B.vN,null,null,B.dB],t.L)
 B.Mr=s([B.vO,null,null,B.fS],t.L)
-B.Mb=s([B.vP,null,null,B.dC],t.L)
+B.Mc=s([B.vP,null,null,B.dC],t.L)
 B.Kw=s([B.vQ,null,null,B.lT],t.L)
 B.JV=s([B.vR,null,null,B.dD],t.L)
 B.KI=s([B.vS,null,null,B.fT],t.L)
-B.M_=s([B.vT,null,null,B.dE],t.L)
-B.M2=s([B.vU,null,null,B.fU],t.L)
+B.M0=s([B.vT,null,null,B.dE],t.L)
+B.M3=s([B.vU,null,null,B.fU],t.L)
 B.Kz=s([B.fP,B.fP,B.iG,null],t.L)
-B.Mi=s([B.iC,null,B.iC,null],t.L)
-B.L0=s([B.ck,null,null,B.dB],t.L)
-B.L1=s([B.c2,null,null,B.dC],t.L)
-B.L2=s([B.c3,null,null,B.dD],t.L)
-B.Mm=s([B.cl,null,null,B.dE],t.L)
-B.M9=s([B.lM,null,null,B.lT],t.L)
+B.Mj=s([B.iC,null,B.iC,null],t.L)
+B.L2=s([B.ck,null,null,B.dB],t.L)
+B.L3=s([B.c2,null,null,B.dC],t.L)
+B.L4=s([B.c3,null,null,B.dD],t.L)
+B.Mn=s([B.cl,null,null,B.dE],t.L)
+B.Ma=s([B.lM,null,null,B.lT],t.L)
 B.KA=s([B.fO,B.fO,B.iF,null],t.L)
-B.LE=s([B.bb,null,null,B.dA],t.L)
-B.L3=s([B.dx,null,null,B.fR],t.L)
+B.LF=s([B.bb,null,null,B.dA],t.L)
+B.L5=s([B.dx,null,null,B.fR],t.L)
 B.Kv=s([B.iB,null,null,B.lR],t.L)
-B.L4=s([B.dy,null,null,B.fT],t.L)
-B.Ma=s([B.fN,null,null,B.lS],t.L)
+B.L6=s([B.dy,null,null,B.fT],t.L)
+B.Mb=s([B.fN,null,null,B.lS],t.L)
 B.KB=s([B.fQ,B.fQ,B.iH,null],t.L)
-B.L5=s([B.fL,null,null,B.fS],t.L)
-B.LK=s([B.fM,null,null,B.fU],t.L)
+B.L7=s([B.fL,null,null,B.fS],t.L)
+B.LL=s([B.fM,null,null,B.fU],t.L)
 B.KC=s([B.d2,B.d2,B.dz,null],t.L)
-B.OU=new A.a7(["*",B.Kq,"+",B.LZ,"-",B.KT,".",B.Lr,"/",B.JS,"0",B.Mh,"1",B.Mc,"2",B.Kx,"3",B.Mr,"4",B.Mb,"5",B.Kw,"6",B.JV,"7",B.KI,"8",B.M_,"9",B.M2,"Alt",B.Kz,"AltGraph",B.Mi,"ArrowDown",B.L0,"ArrowLeft",B.L1,"ArrowRight",B.L2,"ArrowUp",B.Mm,"Clear",B.M9,"Control",B.KA,"Delete",B.LE,"End",B.L3,"Enter",B.Kv,"Home",B.L4,"Insert",B.Ma,"Meta",B.KB,"PageDown",B.L5,"PageUp",B.LK,"Shift",B.KC],A.af("a7<C,V<f?>>"))
+B.OU=new A.a7(["*",B.Kq,"+",B.M_,"-",B.KV,".",B.Lt,"/",B.JS,"0",B.Mi,"1",B.Md,"2",B.Kx,"3",B.Mr,"4",B.Mc,"5",B.Kw,"6",B.JV,"7",B.KI,"8",B.M0,"9",B.M3,"Alt",B.Kz,"AltGraph",B.Mj,"ArrowDown",B.L2,"ArrowLeft",B.L3,"ArrowRight",B.L4,"ArrowUp",B.Mn,"Clear",B.Ma,"Control",B.KA,"Delete",B.LF,"End",B.L5,"Enter",B.Kv,"Home",B.L6,"Insert",B.Mb,"Meta",B.KB,"PageDown",B.L7,"PageUp",B.LL,"Shift",B.KC],A.af("a7<C,V<f?>>"))
 B.D8=new A.ij("Hut","\ud83d\uded6","Houses 1 worker. Upgrade to a House for 2.",B.we)
 B.D7=new A.ij("Tool Smith","\u2692\ufe0f","Crafts Stone Axes \ud83e\ude93 (trees), Pickaxes \u26cf\ufe0f (rocks/ores/gems), and Saws \ud83e\ude9a. 1 \ud83e\udeb5 + 1 \ud83e\udea8 each.",B.lW)
 B.D9=new A.ij("Storehouse","\ud83c\udfda\ufe0f","Increases inventory cap by +20 per resource.",B.lW)
@@ -93653,18 +93653,18 @@ B.Sp=new A.hy(B.Cy,"\ud83d\udc9c","Lavender")
 B.wa=new A.a7([B.hC,B.Sl,B.nC,B.So,B.nD,B.Sn,B.nE,B.Sm,B.nF,B.Sk,B.nG,B.Sr,B.nH,B.Sj,B.nI,B.Ss,B.nJ,B.Sq,B.nK,B.Sp],A.af("a7<dM,+colors,emoji,label(ek,C,C)>"))
 B.wb=new A.a7([B.a5,"Home",B.bG,"Field",B.by,"Forest",B.cg,"Cave",B.ch,"Quarry",B.ci,"Deep Mine"],t.MK)
 B.IN=new A.c8(58136,"MaterialIcons",!1)
-B.Sb=new A.lI(B.IN,"Home")
+B.Sa=new A.lI(B.IN,"Home")
 B.IL=new A.c8(58084,"MaterialIcons",!1)
 B.RQ=new A.lI(B.IL,"Field")
 B.J4=new A.c8(984330,"MaterialIcons",!1)
 B.RO=new A.lI(B.J4,"Forest")
 B.II=new A.c8(57776,"MaterialIcons",!1)
-B.S8=new A.lI(B.II,"Cave")
+B.S7=new A.lI(B.II,"Cave")
 B.IY=new A.c8(58952,"MaterialIcons",!1)
 B.RJ=new A.lI(B.IY,"Quarry")
 B.J3=new A.c8(984301,"MaterialIcons",!1)
 B.RP=new A.lI(B.J3,"Mine")
-B.wc=new A.a7([B.a5,B.Sb,B.bG,B.RQ,B.by,B.RO,B.cg,B.S8,B.ch,B.RJ,B.ci,B.RP],A.af("a7<cv,+icon,label(c8,C)>"))
+B.wc=new A.a7([B.a5,B.Sa,B.bG,B.RQ,B.by,B.RO,B.cg,B.S7,B.ch,B.RJ,B.ci,B.RP],A.af("a7<cv,+icon,label(c8,C)>"))
 B.P3=new A.a7([B.hl,"Welcome to Resourceful, a colony and resource management game. Follow this tutorial to learn how to play.",B.mY,"This is your inventory, right now you have 10 wood \u2014 You will eventually gather many more materials and tools.",B.jJ,"Tap any tile on your home board to place a hut.",B.jK,"Select a hut to build it. Make sure to upgrade or build more huts for more workers!",B.mZ,"Select the Workers tab in the dashboard to continue.",B.n_,"This is where you can see and manage your workers.",B.n0,"Let's go get some resources. Select the Field to continue.",B.n1,"Select a berry bush to gather food. You will need food to harvest everything else.",B.n2,"This bar will always give you helpful hints. Keep an eye on it.",B.n3,"This is the end of the tutorial \u2014 explore, gather and build!"],A.af("a7<f8,C>"))
 B.PM={KeyA:0,KeyB:1,KeyC:2,KeyD:3,KeyE:4,KeyF:5,KeyG:6,KeyH:7,KeyI:8,KeyJ:9,KeyK:10,KeyL:11,KeyM:12,KeyN:13,KeyO:14,KeyP:15,KeyQ:16,KeyR:17,KeyS:18,KeyT:19,KeyU:20,KeyV:21,KeyW:22,KeyX:23,KeyY:24,KeyZ:25,Digit1:26,Digit2:27,Digit3:28,Digit4:29,Digit5:30,Digit6:31,Digit7:32,Digit8:33,Digit9:34,Digit0:35,Minus:36,Equal:37,BracketLeft:38,BracketRight:39,Backslash:40,Semicolon:41,Quote:42,Backquote:43,Comma:44,Period:45,Slash:46}
 B.wd=new A.bP(B.PM,["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0","-","=","[","]","\\",";","'","`",",",".","/"],t.li)
@@ -94173,10 +94173,10 @@ B.S1=new A.a2(!1,!0)
 B.jl=new A.cA(16,"scrollUp")
 B.jm=new A.cA(32,"scrollDown")
 B.S4=new A.a2(B.jl,B.jm)
-B.Sd=new A.a2(B.jm,B.jl)
-B.Sg=new A.a2(!0,!1)
-B.Sh=new A.a2(!0,!0)
-B.Si=new A.a2(B.jB,B.jA)
+B.Sc=new A.a2(B.jm,B.jl)
+B.Sf=new A.a2(!0,!1)
+B.Sg=new A.a2(!0,!0)
+B.Sh=new A.a2(B.jB,B.jA)
 B.St=new A.o(-1/0,-1/0,1/0,1/0)
 B.h1=new A.o(-1e9,-1e9,1e9,1e9)
 B.A4=new A.u5(0,"start")
@@ -94204,8 +94204,8 @@ B.Jc=new A.e6(B.IX,20,B.b9,null,null)
 B.bC=new A.dr(8,null,null,null)
 B.jG=new A.i(!0,B.h,null,null,null,null,14,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.a00=new A.bd("Update History",null,B.jG,null,null,null,null,null,null)
-B.Le=s([B.Jc,B.bC,B.a00],t.p)
-B.SY=new A.q3(B.aP,B.l,B.m,B.q,null,B.cU,null,0,B.Le,null)
+B.Lg=s([B.Jc,B.bC,B.a00],t.p)
+B.SY=new A.q3(B.aP,B.l,B.m,B.q,null,B.cU,null,0,B.Lg,null)
 B.SZ=new A.B_(1333)
 B.me=new A.B_(2222)
 B.T_=new A.MI(null,null)
@@ -94330,9 +94330,9 @@ B.TT=new A.dQ([B.hl,B.n2,B.mY,B.n_,B.n3],A.af("dQ<f8>"))
 B.G2=new A.n(0.23529411764705882,0,0,0,B.e)
 B.PU=new A.h(0,4)
 B.D6=new A.e2(0.5,B.f5,B.G2,B.PU,10)
-B.LF=s([B.D6],t.sq)
+B.LG=s([B.D6],t.sq)
 B.SW=new A.jK(B.nO,B.t)
-B.TU=new A.iQ(null,null,null,B.LF,B.SW)
+B.TU=new A.iQ(null,null,null,B.LG,B.SW)
 B.mq=new A.n1(0,"onlyForDiscrete")
 B.AB=new A.n1(1,"onlyForContinuous")
 B.AC=new A.n1(2,"always")
