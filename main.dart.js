@@ -25664,7 +25664,7 @@ s=A.N(new A.eB(s,new A.aeY(),b),b.i("o.E"))
 b=d3.CW
 a=A.j(b).i("eB<1,t>")
 b=A.N(new A.eB(b,new A.aeZ(),a),a.i("o.E"))
-return A.ah(["version",1,"appVersion","0.1.1+3","devUnlocked",r,"gold",q,"tileTokens",k,"inventory",d2,"tools",p,"workers",o,"unlockedAreas",i,"buildings",a1,"tiles",c0,"scouting",c2,"areaSizes",c3,"completedResearch",d1,"stats",h,"primaryFood",g,"purchasedRecipes",f,"purchasedWorkshopRecipes",e,"purchasedForgeRecipes",d,"toolMastery",c,"spawnPercentages",c5,"discoveredIngredients",s,"completedDiscoveries",b,"useWoodlandBrew",d3.cy],d0,n)},
+return A.ah(["version",1,"appVersion","0.1.2","devUnlocked",r,"gold",q,"tileTokens",k,"inventory",d2,"tools",p,"workers",o,"unlockedAreas",i,"buildings",a1,"tiles",c0,"scouting",c2,"areaSizes",c3,"completedResearch",d1,"stats",h,"primaryFood",g,"purchasedRecipes",f,"purchasedWorkshopRecipes",e,"purchasedForgeRecipes",d,"toolMastery",c,"spawnPercentages",c5,"discoveredIngredients",s,"completedDiscoveries",b,"useWoodlandBrew",d3.cy],d0,n)},
 aCH(a){var s
 A:{if("bushPile"===a){s="sticks"
 break A}if("boulder"===a){s="stoneChunk"
@@ -86966,7 +86966,7 @@ q.e.a_(r)
 q.d.bz=q.a.c.go_()
 q.a.c.a_(q.gQO())
 q.nE()
-q.ay="v0.1.1+3"},
+q.ay="v0.1.2"},
 afR(){var s=this,r=s.d
 r===$&&A.a()
 r.bz=s.a.c.go_()
@@ -86984,7 +86984,7 @@ n=p.d
 n===$&&A.a()
 s=7
 return A.Y(A.af1(n.aD),$async$nE)
-case 7:if(b){if(o!=="0.1.1+3")if(p.c!=null){p.a8(new A.asJ(p))
+case 7:if(b){if(o!=="0.1.2")if(p.c!=null){p.a8(new A.asJ(p))
 $.a3.k4$.push(new A.asK(p))}n=p.d
 if((n.a&2)!==0)n.h7()
 if(p.c!=null)p.a8(new A.asL())
@@ -92674,7 +92674,7 @@ p=A.N(new A.a1(B.OD,new A.ajD(),p),p.i("aD.E"))
 p=A.cM(A.es(A.ad(p,B.t,B.f,B.D,0),s,B.a7),s,17976931348623157e292)
 return A.f0(A.b([A.cV(B.a63,new A.ajE(this,a),s)],t.p),r,p,s,new A.cz(q,B.Fn),B.XW)}}
 A.ajD.prototype={
-$1(a){var s,r,q=null,p=a.a,o=p==="0.1.1+3",n=t.p,m=A.b([A.E(p,q,q,q,A.aR(q,q,o?B.aN:B.a4,q,q,q,q,q,q,q,q,11,q,q,B.C,q,q,!0,q,1,q,q,q,q,q,q),q,q)],n)
+$1(a){var s,r,q=null,p=a.a,o=p==="0.1.2",n=t.p,m=A.b([A.E(p,q,q,q,A.aR(q,q,o?B.aN:B.a4,q,q,q,q,q,q,q,q,11,q,q,B.C,q,q,!0,q,1,q,q,q,q,q,q),q,q)],n)
 if(o){s=A.A(40,B.aN.j()>>>16&255,B.aN.j()>>>8&255,B.aN.j()&255)
 r=A.ar(4)
 B.b.I(m,A.b([B.bn,A.aj(q,B.a6m,B.m,q,q,new A.ab(s,q,A.b1(B.aN,1),r,q,q,B.r),q,q,q,B.Lx,q,q,q)],n))}n=A.b([A.ax(m,B.n,q,B.f,B.j),B.ag],n)
